@@ -1,0 +1,18 @@
+total 660
+drwxrwxr-x 2 ashio ashio   4096 févr.  6  2025 Autres
+drwxrwxr-x 4 ashio ashio   4096 janv. 27  2025 BDD
+drwxrwxr-x 4 ashio ashio   4096 sept.  3 11:51 c_language
+-rw-rw-r-- 1 ashio ashio  10199 mars  31 11:45 digicode.txt
+-rw-rw-r-- 1 ashio ashio  19999 mars  31 12:18 digifinal2.txt
+-rw-rw-r-- 1 ashio ashio  12499 mars  31 12:02 digifinal.txt
+-rw-rw-r-- 1 ashio ashio   9999 mars  31 11:46 digi.txt
+drwxrwxr-x 2 ashio ashio   4096 avril 28 11:23 IA_ESLA
+drwxrwxr-x 3 ashio ashio   4096 mars  24 13:42 PythonCyber
+drwxrwxr-x 2 ashio ashio   4096 sept.  9 09:57 PythonSTI-Maths
+drwxrwxr-x 2 ashio ashio   4096 avril 28 16:29 ReseauPython
+-rw-rw-r-- 1 ashio ashio 112140 mai    5 15:38 Sacha OC-R : Compte rendu TP4 RX3.odt
+-rw-rw-r-- 1 ashio ashio 123687 mai    5 15:39 Sacha OC-R : Compte rendu TP4 RX3.pdf
+-rw-rw-r-- 1 ashio ashio 329792 mars   3  2025 Sacha_OC-R_TP1_RX3.pdf
+drwxrwxr-x 2 ashio ashio   4096 sept.  5 16:08 SoulsSpeedruns-Save-Organizer
+drwxrwxr-x 5 ashio ashio   4096 mars  20 14:48 Temp
+dr-xr-xr-x 2 ashio ashio   4096 avril  3 10:47 www

@@ -1,0 +1,4 @@
+total 12
+drwxr-xr-x  3 root  root  4096 janv. 23  2025 ./
+drwxr-xr-x 20 root  root  4096 janv. 23  2025 ../
+drwxr-x--- 36 ashio ashio 4096 sept. 12 10:54 ashio/
