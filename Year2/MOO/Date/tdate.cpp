@@ -27,23 +27,23 @@ void setDay(TDate* date, unsigned day) {
 
     if (day < 1) day = 1;
 
-    if ((date->month <= JUL && date->month%2 == 1) || (date->month >= AOU && date->month%2 == 0)) {    //--- Mois 31 jours
+    if ((date->month <= JUL && date->month%2 == 1) || (date->month >= AOU && date->month%2 == 0)) {    //--- Condition pour les mois de 31 jours
 
         if (day > 31) day = 31;
 
-    } else if (date->month == FEV) {    //------------------------------------------------------------------ Février
+    } else if (date->month == FEV) {    //------------------------------------------------------------------ Condition pour le cas particulier de février
 
-        if ((date->year%100 != 0 && date->year%4 == 0) || (date->year%400 == 0)) {    //-------------------- Année bisextlie (multiple 4 mais pas 100 ou multiple 400)
+        if ((date->year%100 != 0 && date->year%4 == 0) || (date->year%400 == 0)) {    //-------------------- Vérification si l'année donnée est bisextlie (multiple 4 mais pas 100 ou multiple 400) ou non
 
             if (day > 29) day = 29;
 
-        } else {    //-------------------------------------------------------------------------------------- Année non bisextile
+        } else {    //-------------------------------------------------------------------------------------- Si l'année n'est pas bisextile
 
             if (day > 28) day = 28;
 
         }
 
-    } else {    //------------------------------------------------------------------------------------------ Mois 30 jours
+    } else {    //------------------------------------------------------------------------------------------ Condition pour les mois de 30 jours
 
         if (day > 30) day = 30;
 
