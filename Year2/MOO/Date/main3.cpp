@@ -30,6 +30,7 @@ int main(int argc, char** argv) {
     CDate cdate3;
     cdate3.set(1, AVR, 2011);
 
+//Affichage direct
     std::cout << "Date 1                   :     " << cdate1.getDay() << '/' << cdate1.getMonth() << '/' << cdate1.getYear() << std::endl;
     std::cout << "Date 2 (avant modif)     :     " << cdate2.getDay() << '/' << cdate2.getMonth() << '/' << cdate2.getYear() << std::endl;
 
@@ -38,10 +39,12 @@ int main(int argc, char** argv) {
 
     std::cout << "Date 2 (après modif)     :     " << cdate2.getDay() << '/' << cdate2.getMonth() << '/' << cdate2.getYear() << std::endl;
 
+//Affichage simple (print)
     std::cout << "Date 1 (méthode print())     : " << cdate1.print() << std::endl;
     std::cout << "Date 2 (méthode print())     : " << cdate2.print() << std::endl;
     std::cout << "Date 3 (méthode print())     : " << cdate3.print() << std::endl;
 
+//Affichage long (printLong)
     std::cout << "Date 1 (méthode printLong()) : " << cdate1.printLong() << std::endl;
     std::cout << "Date 2 (méthode printLong()) : " << cdate2.printLong() << std::endl;
     std::cout << "Date 3 (méthode printLong()) : " << cdate3.printLong() << std::endl;
