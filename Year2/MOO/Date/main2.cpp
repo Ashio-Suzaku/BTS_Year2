@@ -29,12 +29,12 @@ int main(int argc, char** argv ) {
     cout << "jour, mois et année (séparés par espaces) ? ";
     cin >> j >> m >> a;
 
-    //tdate2.day = j;
-    setDay(&tdate2, (unsigned)j);
-    //tdate2.month = (TMonth)m;
-    setMonth(&tdate2, (TMonth)m);
-    //tdate2.year = a;
-    setYear(&tdate2, (unsigned)a);
+    //tdate2.day = j;                //    ┐
+    setDay(&tdate2, (unsigned)j);    //    |
+    //tdate2.month = (TMonth)m;      //    ├- Ici commentées sont celles présentes au départ dans le TP, les autres sont là
+    setMonth(&tdate2, (TMonth)m);    //    |  pour tester le fonctionnement des méthodes de tdate.cpp
+    //tdate2.year = a;               //    |
+    setYear(&tdate2, (unsigned)a);   //    ┘
 
     cout << "date 1 : " << tdate1.day << '/';
     cout << tdate1.month << '/' << tdate1.year << endl;
