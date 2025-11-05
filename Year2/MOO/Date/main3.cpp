@@ -33,10 +33,8 @@ int main(int argc, char** argv) {
 //Affichage direct
     std::cout << "Date 1                   :     " << cdate1.getDay() << '/' << cdate1.getMonth() << '/' << cdate1.getYear() << std::endl;
     std::cout << "Date 2 (avant modif)     :     " << cdate2.getDay() << '/' << cdate2.getMonth() << '/' << cdate2.getYear() << std::endl;
-
     cdate2.setMonth(OCT);
     cdate2.setYear(2011);
-
     std::cout << "Date 2 (après modif)     :     " << cdate2.getDay() << '/' << cdate2.getMonth() << '/' << cdate2.getYear() << std::endl;
 
 //Affichage simple (print)
@@ -49,6 +47,7 @@ int main(int argc, char** argv) {
     std::cout << "Date 2 (méthode printLong()) : " << cdate2.printLong() << std::endl;
     std::cout << "Date 3 (méthode printLong()) : " << cdate3.printLong() << std::endl;
 
+//Affichage simple (osstream)
     std::cout << "Date 1 (osstream&)           : " << cdate1 << std::endl;
 
     return 0;
