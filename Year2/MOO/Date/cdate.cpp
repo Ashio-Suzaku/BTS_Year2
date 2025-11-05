@@ -48,7 +48,7 @@ void CDate::setDay(unsigned day) {
 
     if (day < 1) day = 1;
 
-    if ((month <= JUL && month%2 == 1) || (month >= AOU && month%2 == 0)) {    //--- Mois 31 jours
+    if ((month <= JUL && month%2 == 1) || (month >= AOU && month%2 == 0)) {    //--- Mois de 31 jours
 
         if (day > 31) day = 31;
 
@@ -64,7 +64,7 @@ void CDate::setDay(unsigned day) {
 
         }
 
-    } else {    //------------------------------------------------------------------ Mois 30 jours
+    } else {    //------------------------------------------------------------------ Mois de 30 jours
 
         if (day > 30) day = 30;
 
@@ -88,7 +88,7 @@ void CDate::set(unsigned day, TMonth month, unsigned year) {
 
 }
 
-std::string CDate::print() const {
+std::string CDate::print() const {    //Fonction d'affichage simple en "human readable"
 
     std::ostringstream oss;
 
@@ -101,7 +101,7 @@ std::string CDate::print() const {
 
 }
 
-std::string CDate::printLong() const {
+std::string CDate::printLong() const {    //Fonction d'affichage long en "human readable"
 
     std::ostringstream oss;
 
@@ -109,7 +109,7 @@ std::string CDate::printLong() const {
     oss << strMonth((TMonth)month) << ' ';
     oss << year;
 
-    return   oss.str();
+    return oss.str();
 
 }
 
