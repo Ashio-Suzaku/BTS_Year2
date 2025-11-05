@@ -26,7 +26,7 @@ int main(int argc, char** argv ) {
 
         //cout << strMonth(m) << endl;
         printf("%d %s : %d\n", m, strMonth(m), (m%2));    //Ici cette ligne remplace la précédente (mise en commentaire) dans le but de donner la liste des mois
-                                                          //avec quelques informations supplémentaires utilisées plus tard dans cdate.cpp
+                                                          //avec quelques informations supplémentaires utilisées plus tard dans tdate.cpp et cdate.cpp
 
     }
 
