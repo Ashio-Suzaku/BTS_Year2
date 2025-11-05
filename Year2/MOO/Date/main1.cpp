@@ -25,7 +25,7 @@ int main(int argc, char** argv ) {
     for (TMonth m = JAN; m <= DEC; m = (TMonth)(m + 1)) {
 
         //cout << strMonth(m) << endl;
-        printf("%d %s : %d\n", m, strMonth(m), (m%2));
+        printf("%d %s : %d\n", m, strMonth(m), (m%2));    //Ici cette ligne remplace la précédente (mise en commentaire) dans le but de donner le liste de mois avec quelques informations supplémentaires utilisées plus tard dans cdate.cpp
 
     }
 
