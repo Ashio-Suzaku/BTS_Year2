@@ -2,17 +2,17 @@
 | BTS CIEL-IR Lycée La Fayette - 0770320G
 + ----------------------------------------------------------------------------
 |
-| Nom : equ2ndDeg.cpp
+| Name : equ2ndDeg.cpp
 |
 | Projet : N/A
 |
-| Auteur : OULD CADI-RAVILY Sacha
+| Author : OULD CADI-RAVILY Sacha
 | Version : 2.0
-| Création : 14/11/2025
-| Mise à jour : 14/11/2025
+| Creation : 14/11/2025
+| Updated on : 14/11/2025
 |
-| Contraintes : Aucune (C++ standard)
-| Fabrication : g++ -W -o $HOME/bin/equ2ndDeg equ2ndDeg.cpp
+| Constraints : None (standard C++)
+| Build : g++ -W -o $HOME/bin/equ2ndDeg equ2ndDeg.cpp
 +------------------------------------------------------------------------- */
 
 #include <iostream>
