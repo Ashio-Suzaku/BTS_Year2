@@ -6,13 +6,13 @@
 |
 | Projet : RLC
 |
-| Auteur : OULD CADI-RAVILY Sacha
+| Author : OULD CADI-RAVILY Sacha
 | Version : 1.0
-| Création : 07/11/2025
-| Mise à jour : 07/11/2025
+| Creation : 07/11/2025
+| Updated on : 07/11/2025
 |
-| Contraintes : Aucune (C standard)
-| Fabrication : gcc -W -o $HOME/bin/rlc rlc.c -lm
+| Constraints : None (standard C)
+| Build : gcc -W -o $HOME/bin/rlc rlc.c -lm
 +------------------------------------------------------------------------- */
 
 #ifndef ARG
