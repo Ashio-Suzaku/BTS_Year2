@@ -1,3 +1,21 @@
+/*----------------------------------------------------------------------------
+| BTS CIEL-IR Lycée La Fayette - 0770920G
++ ----------------------------------------------------------------------------
+|
+| name : cmembres.cpp
+|
+| Projet : C to POO
+| Sujet : ???
+|
+| Auteur : OULD CADI-RAVILY Sacha
+| Version : 0.1
+| Création : 21/11/2025
+| Mise à jour : 21/11/2025
+|
+| Contraintes : ???
+| Fabrication : ???
++------------------------------------------------------------------------- */
+
 #include "cmembre.h"
 #include <iostream>
 
