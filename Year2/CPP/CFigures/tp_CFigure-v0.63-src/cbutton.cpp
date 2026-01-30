@@ -24,16 +24,7 @@ void CButton::draw(CDraft& dr) const {
 
 	if (!this->isVisible()) return;
 
-	CPoint pts[4] = {
-
-		CPoint(this->getX(), this->getY()),
-		CPoint(this->getX() + this->getDX(), this->getY()),
-		CPoint(this->getX() + this->getDX(), this->getY() + this->getDY()),
-		CPoint(this->getX(), this->getY() + this->getDY())
-
-	};
-
-	dr.poly(this->getPos(), 4, pts, this->getColor(), this->isFill());
-	dr.text(this->getPos(), this->getText(), ((this->isFill()) ? XAM_BLACK : this->getColor()));
+	CRectangle::draw(dr);
+	dr.text((CRectangle) *this, this->getText());
 
 }
