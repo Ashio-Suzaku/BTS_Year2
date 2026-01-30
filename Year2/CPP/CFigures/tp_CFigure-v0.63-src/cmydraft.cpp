@@ -102,6 +102,6 @@ void CMyDraft::draw(const CButton& b) {
 	};
 
 	poly(b.getPos(), 4, pts, b.getColor(), b.isFill());
-	text(b.getPos(), b.getText(), ((b.isFill()) ? XAM_BLACK : b.getColor()));
+	text((CRectangle) b, b.getText());
 
 }
